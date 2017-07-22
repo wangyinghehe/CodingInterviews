@@ -4,11 +4,7 @@ import java.util.Arrays;
 /**
  * Created by Administrator on 2017/7/17.
  */
-class BinaryTreeNode {
-    public static int value;
-    public BinaryTreeNode leftNode;
-    public BinaryTreeNode rightNode;
-}
+
 public class Problem6 {
     public static void main(String[] args){
         int[] preSort = {1,2,4,7,3,5,6,8};

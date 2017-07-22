@@ -25,8 +25,3 @@ public class Problem5 {
     }
 
 }
-
-class ListNode {
-    ListNode next;
-    int data;
-}
