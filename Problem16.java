@@ -26,13 +26,13 @@ public class Problem16 {
         if (head.next == null) {
             return head;
         }
-        ListNode preListNode = null;
         ListNode nowListNode = head;
+        ListNode preListNode = null;
         ListNode tempListNode = null;
         while (nowListNode.next != null) {
-            tempListNode = nowListNode.next;//1.保存下一个节点
-            nowListNode.next = preListNode;//2.更改指针
-            nowListNode = tempListNode;//3.迭代，两个指针同时右移
+            tempListNode = nowListNode.next; //1.保存下一个节点
+            nowListNode.next = preListNode; //2.更改指针：此节点的指针，指向上一节点
+            nowListNode = tempListNode; //3.迭代，两个指针同时右移
             preListNode = nowListNode;
         }
         return nowListNode;
