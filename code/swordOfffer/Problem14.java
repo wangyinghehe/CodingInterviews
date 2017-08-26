@@ -1,3 +1,5 @@
+package code.swordOfffer;
+
 /**
  * 调整数组顺序，使奇数位于偶数前面===》代码解耦
  * <p>

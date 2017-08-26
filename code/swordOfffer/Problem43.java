@@ -1,3 +1,5 @@
+package code.swordOfffer;
+
 public class Problem43 {
     public static void main(String[] args) {
         Problem43 p = new Problem43();
